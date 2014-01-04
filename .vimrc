@@ -4,9 +4,9 @@ source ~/.vimrc.bundle
 " Vi互換をオフ
 set nocompatible
 " スワップファイル用のディレクトリ
-set directory=$HOME/vimtmp
+set directory=$HOME/.vimtmp
 " バックアップファイルを作るディレクトリ
-set backupdir=$HOME/vimbackup
+set backupdir=$HOME/.vimtmp
 " OSのクリップボードを使用する
 set clipboard=unnamed
 " 行番号を表示する
