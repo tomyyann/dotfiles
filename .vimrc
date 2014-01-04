@@ -100,7 +100,7 @@ colorscheme solarized
 
 " Libraries for Script Language Interfaces
 "let $PERL_DLL="/usr/local/lib/perl5/5.12.0/darwin-2level/CORE/libperl.dylib"
-let $PYTHON_DLL="/usr/local/Cellar/python/2.7.4/Frameworks/Python.framework/Versions/2.7/Python"
-"let $PYTHON3_DLL="/usr/local/Cellar/python3/3.3.1/Frameworks/Python.framework/Versions/3.3/Python"
+let $PYTHON_DLL="/usr/local/Frameworks/Python.framework/Versions/2.7/Python"
+"let $PYTHON3_DLL="/usr/local/Frameworks/Python.framework/Versions/3.3/Python"
 "let $RUBY_DLL="/usr/local/lib/libruby.1.8.dylib"
 "let $LUA_DLL="/usr/local/Cellar/lua52/5.2.1/lib/liblua.dylib"
