@@ -3,10 +3,14 @@ source ~/.vimrc.bundle
 
 " Vi互換をオフ
 set nocompatible
-" スワップファイル用のディレクトリ
-set directory=$HOME/.vimtmp
-" バックアップファイルを作るディレクトリ
-set backupdir=$HOME/.vimtmp
+" スワップファイルを作成する
+set swapfile
+" スワップファイル用ディレクトリ
+set directory=~/.vimtmp
+" バックアップファイルを作成する
+set backup
+" バックアップファイル用ディレクトリ
+set backupdir=~/.vimtmp
 " OSのクリップボードを使用する
 set clipboard=unnamed
 " 行番号を表示する
